@@ -29,6 +29,7 @@ A social networking application that draws up a feed that is populated based on 
 * User can search/follow interests/other accounts
 * User can create/join groups
 * User can post (only text)
+* User can see their own profile
 * User update account information/settings 
 
 **Optional Nice-to-have Stories**
@@ -52,6 +53,9 @@ A social networking application that draws up a feed that is populated based on 
 * Search Screen
    * User can search/follow interests/other accounts
 
+* User Profile Screen
+   * User can see their own profile 
+
 * Account Settings Screen
    * User update account information/settings
 
@@ -62,6 +66,7 @@ A social networking application that draws up a feed that is populated based on 
 * Home
 * Search
 * Profile
+* Settings
 
 **Flow Navigation** (Screen to Screen)
 
@@ -73,13 +78,20 @@ A social networking application that draws up a feed that is populated based on 
 * Home Page
    * => Account Settings Screen
    * => Search Screen
+   * => Profile Screen
 * Search Screen
    * => Home Screen
    * => Account Settings Screen 
+   * => Profile Screen
+* Profile Screen
+   * => Home Screen
+   * => Account Settings Screen
+   * => Search Screen
 * Account Settings Screen
    * => Login Screen
    * => Home Screen
    * => Search Screen 
+   * => Profile Screen
  
 
 ## Wireframes
