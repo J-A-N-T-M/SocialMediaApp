@@ -99,9 +99,10 @@ A social networking application that draws up a feed that is populated based on 
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img width="600" alt="MAD WIRE" src="https://user-images.githubusercontent.com/70228981/159394224-e5e4a58f-ba79-4f7b-a434-cb1e0d89868b.png">
 
 ### [BONUS] Interactive Prototype
-
+Link to Interactive Prototype - https://www.figma.com/proto/tPb79YvIz1w6hCNvSvcykN/MAD-WIRE?node-id=19%3A11&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A3&show-proto-sidebar=1
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
