@@ -9,7 +9,7 @@
 ## Overview
 ### Description
 [Description of your app]
-
+Draws up a feed that is populated based on a user's interest and where one can join others in groups that share the same interests. 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:**
