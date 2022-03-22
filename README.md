@@ -1,4 +1,4 @@
-# SocialMediaApp
+# The Social Club
 
 ## Table of Contents
 1. [Overview](#Overview)
