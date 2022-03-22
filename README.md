@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-Draws up a feed that is populated based on a user's interest and where one can join others in groups that share the same interests. 
+A social networking application that draws up a feed that is populated based on a user's interest and where one can join others in groups that share the same interests. 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Social Networking(location, camera, notifications, etc.)
