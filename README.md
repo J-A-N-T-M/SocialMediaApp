@@ -10,7 +10,6 @@
 ### Description
 A social networking application that draws up a feed that is populated based on a user's interest and where one can join others in groups that share the same interests. 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Social Networking(location, camera, notifications, etc.)
 - **Mobile:** Location, camera, notifications, etc.
 - **Story:** Truly personalized experience
@@ -110,12 +109,12 @@ Property | Type | Descripition
 ---| --- | ---
 groupId | String | Unique ID for each group
 messageId | String | Unique ID for each message
-user | Pointer to User | current user profile
-message| String | message created by user 
-image | File | (optional) image attached to message 
+user | Pointer to User | Current user profile
+message| String | Message created by user 
+image | File | (optional) Image attached to message 
 sentAt | DateTime | Time a which the message is sent
 createdAt | DateTime | Time at which the group is created
-profilePicture | File | picture of user
+profilePicture | File | Picture of user
 
 ***Profile***
 Property | Type | Descripition
