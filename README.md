@@ -123,6 +123,35 @@ profilePicture | File | picture of user
 user | Pointer to User | current user profile
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+1. Login Screen 
+  - (Read/GET) Obtaining user information
+
+2. Sign up screen 
+  - (Post) Creating a new profile 
+
+3. Home Screen
+ - (Read/GET) Query all posts where user is author
+let query = PFQuery(className:"Post")
+query.whereKey("author", equalTo: currentUser)
+query.order(byDescending: "createdAt")
+query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+   if let error = error {
+      print(error.localizedDescription)
+   } else if let posts = posts {
+      print("Successfully retrieved \(posts.count) posts.")
+      // TODO: Do something with posts...
+   }
+}
+ - (Create/POST) Create a new like on a post
+ - (Delete) Delete existing like
+ - (Create/POST) Create a new comment on a post 
+
+4. Profile 
+ - (Read/GET) Query logged in user object
+ - (Update/PUT) Update user profile image
+
+5. Search
+ - (READ/GET) Searching posts based on search criteria 
+
+6. Settings
+ - (Post) Creating a new password or email
