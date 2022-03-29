@@ -95,7 +95,6 @@ A social networking application that draws up a feed that is populated based on 
  
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
@@ -104,14 +103,25 @@ A social networking application that draws up a feed that is populated based on 
 ### [BONUS] Interactive Prototype
 Link to Interactive Prototype - ![TSC](https://user-images.githubusercontent.com/70228981/159395266-873adbbd-83be-4da2-b802-ad029cc00e6d.gif)
 
-## Schema 
-[This section will be completed in Unit 9]
+# Schema 
 ### Models
-
+***Group***
 Property | Type | Descripition
 ---| --- | ---
-groupId | string | Unique ID for each group
+groupId | String | Unique ID for each group
+messageId | String | Unique ID for each message
+user | Pointer to User | current user profile
+message| String | message created by user 
+image | File | (optional) image attached to message 
+sentAt | DateTime | Time a which the message is sent
+createdAt | DateTime | Time at which the group is created
+profilePicture | File | picture of user
 
+***Profile***
+Property | Type | Descripition
+---| --- | ---
+profilePicture | File | picture of user
+user | Pointer to User | current user profile
 
 ### Networking
 - [Add list of network requests by screen ]
