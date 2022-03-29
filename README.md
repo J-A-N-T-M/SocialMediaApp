@@ -107,7 +107,12 @@ Link to Interactive Prototype - ![TSC](https://user-images.githubusercontent.com
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+Property | Type | Descripition
+---| --- | ---
+groupId | string | Unique ID for each group
+
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
