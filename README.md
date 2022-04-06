@@ -23,13 +23,14 @@ A social networking application that draws up a feed that is populated based on 
 
 **Required Must-have Stories**
 
-* User can login/logout
-* User can create an account
-* User can search/follow interests/other accounts
-* User can create/join groups
-* User can post (only text)
-* User can see their own profile
-* User update account information/settings 
+- [x] User can login
+- [x] User can create account
+- [ ] User can logout
+- [ ] User can search/follow interests/other accounts
+- [ ] User can create/join groups
+- [ ] User can post
+- [ ] User can see their own profile
+- [ ] User can update account information/settings
 
 **Optional Nice-to-have Stories**
 
@@ -155,3 +156,8 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 
 6. Settings
  - (Post) Creating a new password or email
+
+
+SPRINT 1 GIF
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/52511733/162008492-76c47787-8520-4ea7-bafc-c3edbb69e3ef.gif)
