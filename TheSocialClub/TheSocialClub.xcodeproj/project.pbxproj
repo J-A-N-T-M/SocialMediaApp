@@ -17,8 +17,10 @@
 		DB9D1A4527FBE79700D75629 /* TheSocialClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A4427FBE79700D75629 /* TheSocialClubUITests.swift */; };
 		DB9D1A4727FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A4627FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift */; };
 		DB9D1A5427FD535A00D75629 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A5327FD535A00D75629 /* LoginViewController.swift */; };
-		DB9D1A5627FD537700D75629 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A5527FD537700D75629 /* FeedViewController.swift */; };
 		DB9D1A5C27FD5FA000D75629 /* AccountCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A5B27FD5FA000D75629 /* AccountCreationViewController.swift */; };
+		DBF0CA562804CBC8008E70EA /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */; };
+		DBF0CA582804D990008E70EA /* PostCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */; };
+		DBF0CA5A2804E087008E70EA /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA592804E087008E70EA /* NewPostViewController.swift */; };
 		DD3970884FA8F7C6064BCFBB /* Pods_TheSocialClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DEC6A233529857F52CF313 /* Pods_TheSocialClub.framework */; };
 		F3318C94F39C27F763173DE5 /* Pods_TheSocialClub_TheSocialClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C400BB0569713E4E85CC79C /* Pods_TheSocialClub_TheSocialClubUITests.framework */; };
 /* End PBXBuildFile section */
@@ -62,8 +64,10 @@
 		DB9D1A4427FBE79700D75629 /* TheSocialClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSocialClubUITests.swift; sourceTree = "<group>"; };
 		DB9D1A4627FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSocialClubUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB9D1A5327FD535A00D75629 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		DB9D1A5527FD537700D75629 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		DB9D1A5B27FD5FA000D75629 /* AccountCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationViewController.swift; sourceTree = "<group>"; };
+		DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellTableViewCell.swift; sourceTree = "<group>"; };
+		DBF0CA592804E087008E70EA /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
 		F7061A7CC2761DE8D86609E1 /* Pods_TheSocialClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheSocialClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -150,8 +154,10 @@
 				DB9D1A2E27FBE79600D75629 /* LaunchScreen.storyboard */,
 				DB9D1A3127FBE79600D75629 /* Info.plist */,
 				DB9D1A5327FD535A00D75629 /* LoginViewController.swift */,
-				DB9D1A5527FD537700D75629 /* FeedViewController.swift */,
 				DB9D1A5B27FD5FA000D75629 /* AccountCreationViewController.swift */,
+				DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */,
+				DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */,
+				DBF0CA592804E087008E70EA /* NewPostViewController.swift */,
 			);
 			path = TheSocialClub;
 			sourceTree = "<group>";
@@ -415,8 +421,10 @@
 				DB9D1A5427FD535A00D75629 /* LoginViewController.swift in Sources */,
 				DB9D1A2427FBE78D00D75629 /* AppDelegate.swift in Sources */,
 				DB9D1A5C27FD5FA000D75629 /* AccountCreationViewController.swift in Sources */,
-				DB9D1A5627FD537700D75629 /* FeedViewController.swift in Sources */,
+				DBF0CA5A2804E087008E70EA /* NewPostViewController.swift in Sources */,
+				DBF0CA582804D990008E70EA /* PostCellTableViewCell.swift in Sources */,
 				DB9D1A2627FBE78D00D75629 /* SceneDelegate.swift in Sources */,
+				DBF0CA562804CBC8008E70EA /* HomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

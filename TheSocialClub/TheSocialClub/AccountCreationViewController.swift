@@ -27,7 +27,7 @@ class AccountCreationViewController: UIViewController {
         
         user.signUpInBackground { (success, error) in
             if success{
-                self.performSegue(withIdentifier: "accountCreationSegue", sender: nil)
+                self.performSegue(withIdentifier: "createAccToHomeSegue", sender: nil)
             } else{
                 print("Error:\(error?.localizedDescription)")
             }
