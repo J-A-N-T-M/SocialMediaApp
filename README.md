@@ -28,7 +28,8 @@ A social networking application that draws up a feed that is populated based on 
 - [ ] User can logout
 - [ ] User can search/follow interests/other accounts
 - [ ] User can create/join groups
-- [ ] User can post
+- [x] User can post
+- [x] User can view posts
 - [ ] User can see their own profile
 - [ ] User can update account information/settings
 
@@ -161,3 +162,6 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 SPRINT 1 GIF
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/52511733/162008492-76c47787-8520-4ea7-bafc-c3edbb69e3ef.gif)
+
+
+SPRINT 2 GIF
