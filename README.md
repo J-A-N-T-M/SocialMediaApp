@@ -165,3 +165,7 @@ SPRINT 1 GIF
 
 
 SPRINT 2 GIF
+
+![Post Gif](https://user-images.githubusercontent.com/70228981/163034941-f580bbbe-2f82-47e1-89b3-9822dfd47c24.gif)
+
+
