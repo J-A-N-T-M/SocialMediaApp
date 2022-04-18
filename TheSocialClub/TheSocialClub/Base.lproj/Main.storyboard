@@ -283,15 +283,32 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHD-3c-k4D">
-                                <rect key="frame" x="73" y="444" width="268" height="31"/>
+                                <rect key="frame" x="290" y="75" width="104" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutButton:" destination="B3e-PM-UxK" eventType="touchUpInside" id="33B-SY-XMN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txY-uz-sLY">
+                                <rect key="frame" x="180" y="438" width="56" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Save"/>
+                                <connections>
+                                    <action selector="saveButton:" destination="B3e-PM-UxK" eventType="touchUpInside" id="JiT-8C-FEf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rgv-iG-jKM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="changePassword" destination="nDo-rN-1wp" id="scH-Nd-OSL"/>
+                        <outlet property="emailField" destination="Rd5-23-j8Y" id="07G-hN-Y7B"/>
+                        <segue destination="XAC-cA-6MA" kind="presentation" identifier="saveSegue" id="Txf-AK-0YU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DVN-kX-Br5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -442,7 +459,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="yon-nr-iQx"/>
         <segue reference="KIq-ai-IgJ"/>
+        <segue reference="Txf-AK-0YU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="person" catalog="system" width="128" height="117"/>
