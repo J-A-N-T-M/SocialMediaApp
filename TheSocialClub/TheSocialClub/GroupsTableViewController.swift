@@ -31,7 +31,7 @@ class GroupsTableViewController: UITableViewController {
         
         let owner = group["owner"] as! PFUser
         cell.groupOwnerLabel.text = owner.username
-        cell.groupNameLabel.text = group["groupname"] as! String
+        cell.groupNameLabel.text = group["groupname"] as? String
         
         return cell
     }
