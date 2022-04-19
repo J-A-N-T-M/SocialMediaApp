@@ -12,6 +12,7 @@ class AccountCreationViewController: UIViewController {
 
     @IBOutlet weak var createUsernameField: UITextField!
     @IBOutlet weak var createPasswordField: UITextField!
+    @IBOutlet weak var createNameField: UITextField!
     @IBOutlet weak var confirmPasswordField: UITextField!
     
     override func viewDidLoad() {
@@ -24,7 +25,7 @@ class AccountCreationViewController: UIViewController {
         let user = PFUser()
         user.username = createUsernameField.text
         user.password = createPasswordField.text
-        
+        user["name"] = createNameField.text
         user.signUpInBackground { (success, error) in
             if success{
                 self.performSegue(withIdentifier: "createAccToHomeSegue", sender: nil)
