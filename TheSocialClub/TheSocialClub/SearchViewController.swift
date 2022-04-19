@@ -37,7 +37,7 @@ class SearchViewController: UIViewController {
     
     
     @IBAction func onNewGroupButton(_ sender: Any) {
-        performSegue(withIdentifier: "newGroupSegue", sender: nil)
+        //performSegue(withIdentifier: "newGroupSegue", sender: nil)
     }
     
     /*
