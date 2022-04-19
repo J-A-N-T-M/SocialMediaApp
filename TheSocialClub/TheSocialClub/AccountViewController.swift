@@ -10,8 +10,12 @@ import Parse
 
 
 class AccountViewController: UIViewController{
+    
+
     @IBOutlet weak var profileAboutField: UITextField!
+    
     @IBOutlet weak var profileInterestField: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
