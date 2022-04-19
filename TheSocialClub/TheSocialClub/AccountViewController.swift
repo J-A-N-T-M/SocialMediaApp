@@ -6,15 +6,31 @@
 //
 
 import UIKit
+import Parse
 
-class AccountViewController: UIViewController {
 
+class AccountViewController: UIViewController{
+    @IBOutlet weak var profileAboutField: UITextField!
+    @IBOutlet weak var profileInterestField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func onUpdateButton(_ sender: Any) {
+        let user = PFUser()
+        //let image =
+        let profile = PFObject(className: "Profile")
+        let name = user["name"]
+        
+        profile["name"] = name
+        profile["AboutUser"] = profileAboutField.text
+        profile["Interests"] = profileInterestField.text
+    }
+    
+  
 
     /*
     // MARK: - Navigation
