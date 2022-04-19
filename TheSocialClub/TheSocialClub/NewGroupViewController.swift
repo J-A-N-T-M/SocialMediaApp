@@ -18,12 +18,13 @@ class NewGroupViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+
     
     @IBAction func onCreateGroupButton(_ sender: Any) {
         let group = PFObject(className: "Groups")
         group["owner"] = PFUser.current()!
-        group["groupname"] = newGroupNameField
-        group["category"] = newGroupCategory
+        group["groupname"] = newGroupNameField.text
+        group["category"] = newGroupCategory.text
         
         group.saveInBackground { success, error in
             if success{
