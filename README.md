@@ -25,9 +25,9 @@ A social networking application that draws up a feed that is populated based on 
 
 - [x] User can login
 - [x] User can create account
-- [ ] User can logout
-- [ ] User can search/follow interests/other accounts
-- [ ] User can create/join groups
+- [x] User can logout
+- [x] User can search/follow interests/other accounts
+- [x] User can create/join groups
 - [x] User can post
 - [x] User can view posts
 - [ ] User can see their own profile
@@ -167,5 +167,10 @@ SPRINT 1 GIF
 SPRINT 2 GIF
 
 ![Post Gif](https://user-images.githubusercontent.com/70228981/163034941-f580bbbe-2f82-47e1-89b3-9822dfd47c24.gif)
+
+SPRINT 3 GIF
+
+![ezgif com-gif-maker (10)](https://user-images.githubusercontent.com/94195907/164368327-ad63b241-4583-45be-bd0e-cb06a6cfd156.gif)
+
 
 

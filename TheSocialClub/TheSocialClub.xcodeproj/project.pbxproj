@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B5206AF280E569100F8F241 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206AE280E569100F8F241 /* ImageCollectionViewCell.swift */; };
+		1B5206AF280E569100F8F241 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206AE280E569100F8F241 /* ImageCollectionViewCell.swift */; }; 
 		1B5206B1280E5B3F00F8F241 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206B0280E5B3F00F8F241 /* ImageViewController.swift */; };
 		1B5206B7280F0BEC00F8F241 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206B6280F0BEC00F8F241 /* CameraViewController.swift */; };
 		8F19A593280CC9DE00A5ED81 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19A592280CC9DD00A5ED81 /* AccountViewController.swift */; };
@@ -23,8 +23,9 @@
 		DB9D1A4727FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A4627FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift */; };
 		DB9D1A5427FD535A00D75629 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A5327FD535A00D75629 /* LoginViewController.swift */; };
 		DB9D1A5C27FD5FA000D75629 /* AccountCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A5B27FD5FA000D75629 /* AccountCreationViewController.swift */; };
-		DB9DF162280E1E9E00F3C89C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9DF161280E1E9E00F3C89C /* SearchViewController.swift */; };
 		DB9DF164280E562800F3C89C /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9DF163280E562800F3C89C /* NewGroupViewController.swift */; };
+		DB9DF166280E60C500F3C89C /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9DF165280E60C400F3C89C /* GroupCell.swift */; };
+		DB9DF168280E680000F3C89C /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9DF167280E680000F3C89C /* GroupsTableViewController.swift */; };
 		DBF0CA562804CBC8008E70EA /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */; };
 		DBF0CA582804D990008E70EA /* PostCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */; };
 		DBF0CA5A2804E087008E70EA /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA592804E087008E70EA /* NewPostViewController.swift */; };
@@ -77,8 +78,9 @@
 		DB9D1A4627FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSocialClubUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB9D1A5327FD535A00D75629 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DB9D1A5B27FD5FA000D75629 /* AccountCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationViewController.swift; sourceTree = "<group>"; };
-		DB9DF161280E1E9E00F3C89C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DB9DF163280E562800F3C89C /* NewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
+		DB9DF165280E60C400F3C89C /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		DB9DF167280E680000F3C89C /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
 		DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellTableViewCell.swift; sourceTree = "<group>"; };
 		DBF0CA592804E087008E70EA /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
@@ -175,10 +177,9 @@
 				DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */,
 				DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */,
 				DBF0CA592804E087008E70EA /* NewPostViewController.swift */,
-				DB9DF161280E1E9E00F3C89C /* SearchViewController.swift */,
 				DB9DF163280E562800F3C89C /* NewGroupViewController.swift */,
-				1B5206AE280E569100F8F241 /* ImageCollectionViewCell.swift */,
-				1B5206B0280E5B3F00F8F241 /* ImageViewController.swift */,
+				DB9DF165280E60C400F3C89C /* GroupCell.swift */,
+				DB9DF167280E680000F3C89C /* GroupsTableViewController.swift */,
 			);
 			path = TheSocialClub;
 			sourceTree = "<group>";
@@ -439,19 +440,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9DF162280E1E9E00F3C89C /* SearchViewController.swift in Sources */,
 				DB9D1A5427FD535A00D75629 /* LoginViewController.swift in Sources */,
+				DB9DF168280E680000F3C89C /* GroupsTableViewController.swift in Sources */,
 				DB9D1A2427FBE78D00D75629 /* AppDelegate.swift in Sources */,
+				DB9DF166280E60C500F3C89C /* GroupCell.swift in Sources */,
 				8F19A593280CC9DE00A5ED81 /* AccountViewController.swift in Sources */,
 				DB9D1A5C27FD5FA000D75629 /* AccountCreationViewController.swift in Sources */,
 				DBF0CA5A2804E087008E70EA /* NewPostViewController.swift in Sources */,
 				DB9DF164280E562800F3C89C /* NewGroupViewController.swift in Sources */,
 				DBF0CA582804D990008E70EA /* PostCellTableViewCell.swift in Sources */,
-				1B5206AF280E569100F8F241 /* ImageCollectionViewCell.swift in Sources */,
 				DB9D1A2627FBE78D00D75629 /* SceneDelegate.swift in Sources */,
 				1B5206B7280F0BEC00F8F241 /* CameraViewController.swift in Sources */,
 				DBF0CA562804CBC8008E70EA /* HomeTableViewController.swift in Sources */,
-				1B5206B1280E5B3F00F8F241 /* ImageViewController.swift in Sources */,
 				8F19A595280CD91500A5ED81 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
