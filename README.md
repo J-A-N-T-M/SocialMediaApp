@@ -25,9 +25,9 @@ A social networking application that draws up a feed that is populated based on 
 
 - [x] User can login
 - [x] User can create account
-- [ ] User can logout
-- [ ] User can search/follow interests/other accounts
-- [ ] User can create/join groups
+- [x] User can logout
+- [x] User can search/follow interests/other accounts
+- [x] User can create/join groups
 - [x] User can post
 - [x] User can view posts
 - [ ] User can see their own profile
