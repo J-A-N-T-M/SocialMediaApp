@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B5206AF280E569100F8F241 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206AE280E569100F8F241 /* ImageCollectionViewCell.swift */; };
 		1B5206B1280E5B3F00F8F241 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206B0280E5B3F00F8F241 /* ImageViewController.swift */; };
+		1B5206B7280F0BEC00F8F241 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206B6280F0BEC00F8F241 /* CameraViewController.swift */; };
 		8F19A593280CC9DE00A5ED81 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19A592280CC9DD00A5ED81 /* AccountViewController.swift */; };
 		8F19A595280CD91500A5ED81 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19A594280CD91500A5ED81 /* SettingsViewController.swift */; };
 		D5CB019E4379CF2A3B37F08A /* Pods_TheSocialClubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7061A7CC2761DE8D86609E1 /* Pods_TheSocialClubTests.framework */; };
@@ -52,6 +53,7 @@
 		0740490AD5706B8F2C7260DA /* Pods-TheSocialClub-TheSocialClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClub-TheSocialClubUITests.release.xcconfig"; path = "Target Support Files/Pods-TheSocialClub-TheSocialClubUITests/Pods-TheSocialClub-TheSocialClubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1B5206AE280E569100F8F241 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		1B5206B0280E5B3F00F8F241 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1B5206B6280F0BEC00F8F241 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		27162B4FCFE459057CFB542B /* Pods-TheSocialClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClub.debug.xcconfig"; path = "Target Support Files/Pods-TheSocialClub/Pods-TheSocialClub.debug.xcconfig"; sourceTree = "<group>"; };
 		3C400BB0569713E4E85CC79C /* Pods_TheSocialClub_TheSocialClubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheSocialClub_TheSocialClubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4084288F7FBDEFAAA4B67E53 /* Pods-TheSocialClub-TheSocialClubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClub-TheSocialClubUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheSocialClub-TheSocialClubUITests/Pods-TheSocialClub-TheSocialClubUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				DB9D1A2927FBE78D00D75629 /* Main.storyboard */,
 				8F19A594280CD91500A5ED81 /* SettingsViewController.swift */,
 				8F19A592280CC9DD00A5ED81 /* AccountViewController.swift */,
+				1B5206B6280F0BEC00F8F241 /* CameraViewController.swift */,
 				DB9D1A2C27FBE79600D75629 /* Assets.xcassets */,
 				DB9D1A2E27FBE79600D75629 /* LaunchScreen.storyboard */,
 				DB9D1A3127FBE79600D75629 /* Info.plist */,
@@ -446,6 +449,7 @@
 				DBF0CA582804D990008E70EA /* PostCellTableViewCell.swift in Sources */,
 				1B5206AF280E569100F8F241 /* ImageCollectionViewCell.swift in Sources */,
 				DB9D1A2627FBE78D00D75629 /* SceneDelegate.swift in Sources */,
+				1B5206B7280F0BEC00F8F241 /* CameraViewController.swift in Sources */,
 				DBF0CA562804CBC8008E70EA /* HomeTableViewController.swift in Sources */,
 				1B5206B1280E5B3F00F8F241 /* ImageViewController.swift in Sources */,
 				8F19A595280CD91500A5ED81 /* SettingsViewController.swift in Sources */,
